@@ -1,4 +1,8 @@
 /* generic */
+*{
+    box-sizing: border-box;
+    margin:0;
+}
 
 
 
@@ -8,6 +12,25 @@
 
 
 /* utility */
+
+
+/* content header */
+
+header{
+    line-height: 70px;      
+}
+
+
+img, h1{
+    vertical-align: middle;
+    margin: 0 5px 0 20px;    
+}
+
+
+h1{
+    display: inline-block;
+    margin: 0;
+}
 
 
 
