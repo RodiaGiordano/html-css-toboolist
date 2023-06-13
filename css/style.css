@@ -11,19 +11,35 @@
 
 .container{
     background-color: white;
-    line-height: 50px;
-    max-width: 60%;
+    line-height: 30px;
+    max-width: 75%;
     margin: 0 auto 3px; 
     border-radius: 5px;
-    padding-left: 40px;    
+    padding-left: 40px;
+
 }
 
-.color-dogerblue{
+.dogeblue{
     background-color: dodgerblue;
 }
 
+.grey{
+    color:grey;
+}
 
 
+.lable{
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: x-small;
+    color: white;
+}
+
+
+.item-list{
+    margin-top: 5px;
+}
 
 
 
@@ -35,9 +51,9 @@ header{
 }
 
 
-h1{
+h1, h2{
     display: inline-block;
-    margin: 0;
+    
 }
 
 
@@ -57,13 +73,25 @@ main{
 
 
 button{
-    padding:5px;
-    border-radius: 5px;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px; 
+    background-color:white;
+    color: white;
 }
 
 
+.to-do{
+    padding-top: 30px;
+    
+}
 
-
+.flag{
+    color: green;
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 50%;    
+}
 
 
 
