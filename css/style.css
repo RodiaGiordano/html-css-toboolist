@@ -13,15 +13,40 @@
     background-color: white;
     line-height: 30px;
     max-width: 75%;
-    margin: 0 auto 3px; 
+    margin: 3px auto ; 
     border-radius: 5px;
     padding-left: 40px;
-
+    
+    
 }
+
 
 .dogeblue{
     background-color: dodgerblue;
 }
+
+.goals{
+    background-color: darkviolet;
+}
+
+.recruting{
+    background-color: green;
+}
+
+.mobile{
+    background-color: orangered;
+
+}
+
+.website{
+    background-color: pink;
+}
+
+
+.sales{
+    background-color: lime;
+}
+
 
 .grey{
     color:grey;
@@ -38,7 +63,9 @@
 
 
 .item-list{
-    margin-top: 5px;
+    line-height: 2rem;
+    
+    
 }
 
 
@@ -46,8 +73,7 @@
 /* content header */
 
 header{
-    line-height: 70px;
-    margin-bottom: 20px;      
+    line-height: 70px;      
 }
 
 
@@ -56,6 +82,9 @@ h1, h2{
     
 }
 
+h2{
+    margin-top: 30px;
+}
 
 img, h1{
     vertical-align: middle;
@@ -66,8 +95,10 @@ img, h1{
 /* content main */
 
 main{
-    background-color: grey;
-    padding-top: 30px;
+    height: 650px;
+    background-color: lightgrey;
+    padding-top:30px;
+    
     
 }
 
@@ -81,19 +112,27 @@ button{
 }
 
 
-.to-do{
-    padding-top: 30px;
-    
+
+.border{
+    line-height: none;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 0 2.5px;
+      
 }
 
 .flag{
     color: green;
-    font-weight: bold;
-    border: 2px solid green;
-    border-radius: 50%;    
+    border-color: green;
+}
+
+.cross{
+    color: red;
+    border-color: red;
 }
 
 
-
-
-
+.second{
+    padding-bottom: 40px;
+}
